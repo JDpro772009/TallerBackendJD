@@ -1,0 +1,28 @@
+{
+  "name": "tallerbackendjd",
+  "version": "1.0.0",
+  "description": "comandos",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node ./servidor.js",
+    "dev": "nodemon ./servidor.js",
+    "dataTiendas": "node ./models/data/tiendas.js",
+    "dataProducts": "node ./models/data/productos.js",
+    "dataEmpleados": "node ./models/data/empleados.js",
+    "dataPromociones": "node ./models/data/promociones.js",
+    "dataComentarios": "node ./models/data/comentarios.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "mongoose": "^8.7.1",
+    "morgan": "^1.10.0",
+    "nodemon": "^3.1.7"
+  }
+}
